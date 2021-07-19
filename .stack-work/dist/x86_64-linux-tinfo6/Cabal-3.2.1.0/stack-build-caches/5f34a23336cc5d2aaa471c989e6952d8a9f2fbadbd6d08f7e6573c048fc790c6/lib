@@ -1,0 +1,52 @@
+/home/gsh/code/haskell/glee/src/Language/Glee/Util.hs:
+  hash: b53063d1a404c1e57781d1063faf550ebfb73f0fc5eb73bd9da88238cefd399c
+/home/gsh/code/haskell/glee/src/Language/Glee/Unchecked.hs:
+  hash: 278f8836d52076b31e482ca838625222d5b4118c0930e80435080a70e2992a13
+/home/gsh/code/haskell/glee/src/Language/Glee/Dec.hs:
+  hash: 40af1a325d1b3603ad656e9e51aa2c6b5ad63df077b81149a1cd480caeb5d4ac
+/home/gsh/code/haskell/glee/src/Language/Glee/Parse.hs:
+  hash: a4df5a8f7632454adaa709482779d32606f10cb41d45f9e756f9bb98f04869d9
+/home/gsh/code/haskell/glee/src/Language/Glee/Type.hs:
+  hash: 2c3da52974132d30e6c0f406ed3025f1a4216d7936413ebf102162b7a5c4c2ca
+/home/gsh/code/haskell/glee/src/Language/Glee/Match.hs:
+  hash: f3791054748820e5b8f4660fad0f77c9b8371e401ee4cea379182032a90a3007
+/home/gsh/code/haskell/glee/src/Language/Glee/Nat.hs:
+  hash: c57b753b4f35263a68fb70bd201b6067a470b44f0f893fa784d7a190aa5379c8
+/home/gsh/code/haskell/glee/src/Language/Glee/Repl.hs:
+  hash: d6bb962292f161271e620484f0529b79b73a5965806b8f2b3c917a4f0092da63
+/home/gsh/code/haskell/glee/src/Language/Glee/Pretty.hs:
+  hash: 331097f1db502f7453857439b48d46721f4415ac9208796bad433f370a14c9a3
+/home/gsh/code/haskell/glee/src/Language/Glee/Check.hs:
+  hash: b9596ad75f687e98594a1ba49488aba7b9c9b48953a60b8e71159c79f7f69f2c
+/home/gsh/code/haskell/glee/src/Language/Glee/Lex.hs:
+  hash: e8697f6e79d1e22e582c43a43d617bc3b32b6ea01cb5b5b4784660580da1dd9d
+/home/gsh/code/haskell/glee/src/Language/Glee/Monad.hs:
+  hash: 9ae1f0645d6d83a68ce2aa6ceaa9664ee2f3bd72767c730947c4123fe05ae8e8
+/usr/include/stdc-predef.h:
+  hash: 38bac01c137da3ec6623c5166d420cd0bdee18e1d6605921f138f74ef902f102
+/home/gsh/code/haskell/glee/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.2.1.0/build/autogen/Paths_glee.hs:
+  hash: 98d6317064a0e6d7e8c11317beb61d533db7a3f4f1c77a2e02730665702dc6b6
+/home/gsh/code/haskell/glee/src/Language/Glee/Exp.hs:
+  hash: 79e1fe5ce46d17c423d10e0316aedb5aecad350625e88b5730b30326c1fddee5
+/home/gsh/code/haskell/glee/src/Language/Glee/Op2.hs:
+  hash: 6aab2b58a3c20cdfa92e644ebc15b418dd64dee6af303354cd7dc3ee0530312b
+/home/gsh/code/haskell/glee/src/Language/Glee/Statement.hs:
+  hash: 2e5e0f3af31d51352690d5d1232ea1322afaf1f5a1c3dc4f4588795bb2c71160
+/home/gsh/code/haskell/glee/src/Language/Glee/Pat.hs:
+  hash: e9558db170d067aa2f3b3840fba4b786d889dc3b7ea5182bb09e73d0a6e545e2
+/home/gsh/code/haskell/glee/src/Language/Glee/Globals.hs:
+  hash: d9ee94cc5211a2ff31601e172346e56d881cf820d6395e4853582a195ee1e138
+/home/gsh/code/haskell/glee/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.2.1.0/build/autogen/cabal_macros.h:
+  hash: 21ebbaa5e7537f58e2d41de54e97d4ee1e8692be28f061451bf9d383f291c7ad
+/home/gsh/code/haskell/glee/src/Language/Glee/Token.hs:
+  hash: 5efc843b91d1a9be86bbb187b6eb2987999df172d3337f5b349161d4f3463fc2
+/home/gsh/.stack/programs/x86_64-linux/ghc-tinfo6-8.10.4/lib/ghc-8.10.4/include/ghcversion.h:
+  hash: ddf0d2a5b1862138ade2de39566db63c5db748c6df9abc567bd8b7326ae3838a
+/home/gsh/code/haskell/glee/src/Language/Glee/Eval.hs:
+  hash: e5f4950bb2414af6bb86af23019afbb2aac5d2ff2a712dd6bb0cc7ab711ff1ac
+/home/gsh/code/haskell/glee/src/Language/Glee/Ascii.hs:
+  hash: 4f257c6a43462a5fa1c83b453de68bca2c8dfdde434b835aec4a86f1885730a5
+/home/gsh/code/haskell/glee/glee.cabal:
+  hash: 81760f110fc91e2cdde8585cc5656dea93ad60a17721f64c114b48186744fb50
+/home/gsh/code/haskell/glee/src/Language/Glee/Hasochism.hs:
+  hash: 5e8f5498a5e9273423000a02decdd06ab66bf4492e6da7041b7eb5ea22bf1995

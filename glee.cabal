@@ -1,0 +1,80 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.3.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 77671f670f78e8b341e9889e4d07d2b49b689e705bed3192fe13b0eb0af0bdeb
+
+name:           glee
+version:        0.0.0.1
+description:    Please see the README on GitHub at <https://github.com/githubuser/thumos#readme>
+homepage:       https://github.com/githubuser/thumos#readme
+bug-reports:    https://github.com/githubuser/thumos/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/thumos
+
+library
+  exposed-modules:
+      Language.Glee.Nat 
+      Language.Glee.Ascii
+      Language.Glee.Check
+      Language.Glee.Dec
+      Language.Glee.Eval
+      Language.Glee.Exp
+      Language.Glee.Globals
+      Language.Glee.Hasochism
+      Language.Glee.Lex
+      Language.Glee.Match
+      Language.Glee.Monad
+      Language.Glee.Op2
+      Language.Glee.Parse
+      Language.Glee.Pat
+      Language.Glee.Pretty
+      Language.Glee.Repl
+      Language.Glee.Statement
+      Language.Glee.Token
+      Language.Glee.Type
+      Language.Glee.Unchecked
+      Language.Glee.Util
+
+  other-modules:
+      Paths_glee
+  hs-source-dirs:
+      src 
+  build-depends:
+      base >=4.7 && <5
+    , singletons == 2.7
+    , constraints 
+    , lens 
+    , template-haskell
+    , megaparsec
+    , ansi-wl-pprint
+    , aeson
+    , protolude
+    , text
+    , containers 
+    , mtl
+    , transformers
+    , parser-combinators
+    , directory
+    , haskeline
+
+  default-language: Haskell2010
+
+executable glee-exe
+  main-is: Main.hs 
+  other-modules: Paths_glee 
+  hs-source-dirs: app 
+  ghc-options: -threaded -O2 
+  build-depends: 
+      base >= 4.7 && <5 
+    , glee 
+  default-language: Haskell2010 
