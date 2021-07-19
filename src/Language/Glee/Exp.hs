@@ -478,7 +478,7 @@ prettyExpr c prec (Cons e1 e2) = text "["
     go ex = case ex of 
       Nil -> text "]"
       Cons ex1 ex2 -> text "," <+> prettyExpr c prec ex1 <+> go ex2 
-      _ -> error "boom!"
+      other -> prettyExpr c prec other 
  
 prettyPat :: Pat -> Doc 
 prettyPat p = case p of 

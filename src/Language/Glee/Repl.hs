@@ -160,6 +160,7 @@ doStmt (TyDec l t) thing_inside = do
         v@(SVariantTy vs) -> case mkConstructors v of 
           Just cs -> insertConstructors cs 
           Nothing -> throwError $ text "Error: Invalid Sum Type or Constructor"
+        _ -> pure ()
 
     insertConstructors :: [Some ConstructorInfo] -> GlamE ()
     insertConstructors [] = pure ()

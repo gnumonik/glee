@@ -143,9 +143,7 @@ data Token
   | LTok 
   | RTok
     deriving (Eq, Ord)
-
-
-
+    
 -- | Perhaps extract an 'Int'
 unNat :: Token -> Maybe Nat
 unNat (Nat x) = Just x

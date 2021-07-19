@@ -253,17 +253,7 @@ tok' matcher = token (matcher . unLoc) expected
   where 
     expected = Set.empty -- fix later 
 
-{--
--- | Parse one of a set of 'ArithOp's
-arith_op :: [UArithOp] -> Parser UArithOp
-arith_op ops = token myToken (Set.empty)
-  where 
-    myToken = \case L _ (ArithOp op) | op `elem` ops -> Just op
-                    _                                -> Nothing
-bop :: Functor f =>  a -> f b -> f a
-bop = (<$)
 
---}
 
 next_pos :: SourcePos  -- ^ position of the current token
          -> LToken     -- ^ current token
@@ -279,8 +269,8 @@ stmts :: Parser [Statement]
 stmts = stmt `sepEndBy` tok Semi
 
 stmt :: Parser Statement
-stmt = choice [ try tyDec 
-              , try funDecSugar -- try $ NewGlobal <$> tok' unName <* tok Assign <*> expr
+stmt = choice [ tyDec 
+              , funDecSugar -- try $ NewGlobal <$> tok' unName <* tok Assign <*> expr
               , BareExp <$> expr ]
 
 
@@ -324,12 +314,12 @@ apps = -- choice [ --UFix <$ tok FixT <*> expr ,
 
 factor :: Parser UExp
 factor = choice [ try dataCon 
+                , record 
                 , between (tok LParen) (tok RParen) expr
                 , label "A Nat Literal" $ UNatE <$> tok' unNat
                 , label "A Bool Literal" $ UBoolE <$> tok' unBool
                 , var
-                , listSugar 
-                , record ]
+                , listSugar ]
 
 lam :: Parser UExp
 lam = label "A Lambda Expression" $ do
@@ -350,7 +340,7 @@ record = label "A record"
     recField :: Parser (UExp,UExp)
     recField = do 
       e1 <- expr 
-      tok Colon 
+      tok Assign 
       e2 <- expr 
       pure $ (e1,e2)
 
@@ -460,7 +450,7 @@ tyDec = do
   tok TypeT 
   l <- tok' unConstr 
   tok Assign 
-  t <- sumDecl <|> ty --(between (tok LParen) (tok RParen) sumDecl) <|> ty 
+  t <- (between (tok LParen) (tok RParen) sumDecl) <|> ty 
   pure $ TyDec l t 
 
 sumDecl :: Parser Ty 
@@ -472,10 +462,17 @@ sumDecl = VariantTy <$> (go `sepBy1` tok Pipe)
       t <- option (RecTy []) ty 
       pure (l,t)
 
+listTy :: Parser Ty 
+listTy = do 
+  tok LBracket 
+  t <- tycon 
+  tok RBracket 
+  pure (ListTy t)
 
 arg_ty :: Parser Ty
-arg_ty = choice [ try recTy 
-                , try tycon 
+arg_ty = choice [ listTy 
+                , recTy --try recTy 
+                , tycon --try tycon 
                 , between (tok LParen) (tok RParen) ty]
 
 tycon :: Parser Ty

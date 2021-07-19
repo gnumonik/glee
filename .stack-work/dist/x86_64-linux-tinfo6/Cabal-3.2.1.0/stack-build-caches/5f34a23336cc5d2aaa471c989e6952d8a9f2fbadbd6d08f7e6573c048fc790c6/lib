@@ -5,7 +5,7 @@
 /home/gsh/code/haskell/glee/src/Language/Glee/Dec.hs:
   hash: 40af1a325d1b3603ad656e9e51aa2c6b5ad63df077b81149a1cd480caeb5d4ac
 /home/gsh/code/haskell/glee/src/Language/Glee/Parse.hs:
-  hash: a4df5a8f7632454adaa709482779d32606f10cb41d45f9e756f9bb98f04869d9
+  hash: 77e5a086dede6417931b7fdd65a3302970b674300fbc736d39f0ca5f8454b959
 /home/gsh/code/haskell/glee/src/Language/Glee/Type.hs:
   hash: 2c3da52974132d30e6c0f406ed3025f1a4216d7936413ebf102162b7a5c4c2ca
 /home/gsh/code/haskell/glee/src/Language/Glee/Match.hs:
@@ -13,7 +13,7 @@
 /home/gsh/code/haskell/glee/src/Language/Glee/Nat.hs:
   hash: c57b753b4f35263a68fb70bd201b6067a470b44f0f893fa784d7a190aa5379c8
 /home/gsh/code/haskell/glee/src/Language/Glee/Repl.hs:
-  hash: d6bb962292f161271e620484f0529b79b73a5965806b8f2b3c917a4f0092da63
+  hash: 11a94193715b46adbf40729d8d27c1f664290669928bcc337d554005ef4b08f0
 /home/gsh/code/haskell/glee/src/Language/Glee/Pretty.hs:
   hash: 331097f1db502f7453857439b48d46721f4415ac9208796bad433f370a14c9a3
 /home/gsh/code/haskell/glee/src/Language/Glee/Check.hs:
@@ -27,7 +27,7 @@
 /home/gsh/code/haskell/glee/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.2.1.0/build/autogen/Paths_glee.hs:
   hash: 98d6317064a0e6d7e8c11317beb61d533db7a3f4f1c77a2e02730665702dc6b6
 /home/gsh/code/haskell/glee/src/Language/Glee/Exp.hs:
-  hash: 79e1fe5ce46d17c423d10e0316aedb5aecad350625e88b5730b30326c1fddee5
+  hash: a5de577f1f6c198038e0ec1ed2c340f58d769cd5b8909fd8d0bd0a25768fb9e5
 /home/gsh/code/haskell/glee/src/Language/Glee/Op2.hs:
   hash: 6aab2b58a3c20cdfa92e644ebc15b418dd64dee6af303354cd7dc3ee0530312b
 /home/gsh/code/haskell/glee/src/Language/Glee/Statement.hs:
@@ -39,7 +39,7 @@
 /home/gsh/code/haskell/glee/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.2.1.0/build/autogen/cabal_macros.h:
   hash: 21ebbaa5e7537f58e2d41de54e97d4ee1e8692be28f061451bf9d383f291c7ad
 /home/gsh/code/haskell/glee/src/Language/Glee/Token.hs:
-  hash: 5efc843b91d1a9be86bbb187b6eb2987999df172d3337f5b349161d4f3463fc2
+  hash: a9aa27439bd21a8424aa39089f74588354a944eed74d0321df5788a2613158d7
 /home/gsh/.stack/programs/x86_64-linux/ghc-tinfo6-8.10.4/lib/ghc-8.10.4/include/ghcversion.h:
   hash: ddf0d2a5b1862138ade2de39566db63c5db748c6df9abc567bd8b7326ae3838a
 /home/gsh/code/haskell/glee/src/Language/Glee/Eval.hs:
